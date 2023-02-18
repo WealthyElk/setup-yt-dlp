@@ -1,0 +1,5 @@
+steps:
+  - name: Setup youtube-dl
+    uses: AnimMouse/setup-youtube-dl@v1
+    
+  - run: youtube-dl https://www.youtube.com/watch?v=BaW_jenozKc
